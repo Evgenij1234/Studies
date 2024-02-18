@@ -17,4 +17,7 @@
 {4,"_$Transaction$_.Commit",6},
 {4,"_$Session$_.Finish",7},
 {3,"BackgroundJob",3},
-{4,"_$PerformError$_",8}
+{4,"_$PerformError$_",8},
+{2,"WIN-6FAK5F8LME0",2},
+{13,2,1},
+{4,"_$InfoBase$_.DBConfigUpdateStart",9}
