@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        button {
+            color: white;
+            background-color: black;
+        }
+
+        .text {
+            font-size: 24px;
+        }
+
+        .form {
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            width: 200px;
+        }
+
+        .hr {
+            width: 300px;
+        }
+        .th{
+            background-color: rgb(66, 27, 27);
+        }
+    </style>
+    <div>Главное меню</div>
+    <div>Производство деталей</div>
+    <div>Детали</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Наименование">
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица детали</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Наименование</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Деталь 1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Деталь 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+
+    <div>Модель ручек</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Наименование">
+            <input type="text" placeholder="Цвет">
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица модели ручек</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цвет</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Модель 1</td>
+                <td>Розовый</td>
+            </tr>
+            <tr>
+                <td>Модель 2</td>
+                <td>Бордовый</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+    <div>Материалы</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Наименование">
+            <input type="text" placeholder="Цвет">
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица материалы</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цвет</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Материал 1</td>
+                <td>Серый</td>
+                
+            </tr>
+            <tr>
+                <td>Материал 2</td>
+                <td>Красный</td>
+            
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+    <div>Заказчики</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Наименование">
+            
+            <input type="text" placeholder="Адрес регистрации">
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица заказчики</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                
+                <th>Адрес регистрации</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Преско</td>
+                
+                <td>г Красноярск ул Побежимова 15</td>
+            </tr>
+            <tr>
+                <td>ТКБ</td>
+                
+                <td>г Красноярск ул Побежимова 16</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+    <div>Заказы</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Дата создания">
+            <input type="text" placeholder="Срок выполнения">
+            <input type="text" placeholder="ID заказчика">
+            <input type="text" placeholder="ID сотрудника">
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица заказы</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Дата создания</th>
+                <th>Срок выполнения</th>
+                <th>ID заказчика</th>
+                <th>ID сотрудника</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>13.12.2023</td>
+                <td>14.12.2023</td>
+                
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>15.12.2023</td>
+                <td>16.12.2023</td>
+                
+                <td>1</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <div>Главное меню</div>
+    <div>Персонал</div>
+    <div>Сотрудники</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Должность">
+            <div>
+                <input type="checkbox" placeholder="Пол"> М
+                <input type="checkbox" placeholder="Пол"> Ж
+            </div>
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица сотрудники</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Должность</th>
+                <th>Пол</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Евгений</td>
+                <td>Слесарь</td>
+                <td>М</td>
+                
+            </tr>
+            <tr>
+                <td>Лев</td>
+                <td>Слесарь</td>
+                <td>М</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <div>Главное меню</div>
+    <div>Поставки</div>
+    <div>Поставщики</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Наименование">
+    
+            <input type="text" placeholder="Адрес регистрации">
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица поставщики</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                
+                <th>Адрес регистрации</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Торт и Булка</td>
+               
+                <td>г Краснояск ул Побежимова 17</td>
+            </tr>
+            <tr>
+                <td>Булка и Торт</td>
+                
+                <td>г Краснояск ул Побежимова 18</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <div>Главное меню</div>
+    <div>Хранение</div>
+    <div>Склады</div>
+    <form action="">
+        <div class="form">
+            <input type="text" placeholder="Тип">
+            <input type="text" placeholder="Количество мест">
+        </div>
+    </form>
+    <button>Добавить</button>
+    <button>Удалить</button>
+    <button>Обновить</button>
+    <div>Таблица склады</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Тип</th>
+                <th>Количество мест</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1 Тип</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>2 Тип</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <hr>
+    <hr>
+    <hr>
+    <hr><hr>
+    <hr><hr>
+    <hr>
+
+    <style>
+        button {
+            color: white;
+            background-color: black;
+        }
+
+        .text {
+            font-size: 24px;
+        }
+
+        .form {
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            width: 200px;
+        }
+
+        .hr {
+            width: 300px;
+        }
+    </style>
+    
+    <div>Печатная форма Детали</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Наименование</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Деталь 1</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Деталь 2</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+
+    <div>Печатная форма модели ручек</div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID модели ручки</th>
+                <th>Наименование</th>
+                <th>Цвет</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Модель 1</td>
+                <td>Розовый</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Модель 2</td>
+                <td>Бордовый</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+    <div> Печатная форма Материалы</div>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Цвет</th>
+                <th>Наименование</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Серый</td>
+                <td>Материал 1</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Белый</td>
+                <td>Материал 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+    <div> Печатная форма Заказчики</div>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Наименование</th>
+                
+                <th>Адрес регистрации</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Преско</td>
+                
+                <td>г Красноярск ул Побежимова 15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ТКБ</td>
+                
+                <td>г Красноярск ул Побежимова 16</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+
+    <div>Печатная форма Заказы</div>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Дата создания</th>
+                <th>Срок выполнения</th>
+                
+                <th>ID заказчика</th>
+                <th>ID сотрудника</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>13.12.2023</td>
+                <td>14.12.2023</td>
+                
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>15.12.2023</td>
+                <td>16.12.2023</td>
+                
+                <td>1</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <div> Печатная форма Сотрудники</div>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Имя</th>
+                <th>Должность</th>
+                <th>Пол</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Евгений</td>
+                <td>Слесарь</td>
+                <td>М</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Лев</td>
+                <td>Слесарь</td>
+                <td>М</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <div>Печатная форма Поставщики</div>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Наименование</th>
+                
+                <th>Адрес регистрации</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Торт и Булка</td>
+                
+                <td>г Краснояск ул Побежимова 17</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Булка и Торт</td>
+                
+                <td>г Краснояск ул Побежимова 18</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    
+    <div>Печатная форма Склады</div>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Тип</th>
+                <th>Количество мест</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1 </td>
+                <td>1 Тип</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>2 </td>
+                <td>2 Тип</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <hr>
+    <hr>
+</body>
+</html>

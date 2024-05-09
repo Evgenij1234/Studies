@@ -1,0 +1,24 @@
+﻿1CV8LOG(ver 2.0)
+3a9981d2-cf13-49b3-a692-1b1e74298cc6
+
+{1,071523a4-516f-4fce-ba4b-0d11ab7a1893,"",1},
+{2,"WIN-6FAK5F8LME0",1},
+{3,"Designer",1},
+{4,"_$Session$_.Authentication",1},
+{13,1,1},
+{4,"_$Session$_.Start",2},
+{4,"_$InfoBase$_.ConfigUpdate",3},
+{4,"_$Session$_.Finish",4},
+{4,"_$InfoBase$_.DBConfigUpdateStart",5},
+{4,"_$InfoBase$_.DBConfigUpdate",6},
+{3,"1CV8C",2},
+{4,"_$InfoBase$_.PredefinedDataUpdate",7},
+{5,b6a4cbf0-82a2-43f0-91aa-0715972199dc,"",1},
+{3,"BackgroundJob",3},
+{5,23b04d3f-332a-4d4a-99f2-4556f2de3fa9,"",2},
+{5,2951b71a-8754-4dc0-8991-c6e85af06198,"",3},
+{5,2117f6d1-c3fc-49f9-8fb0-eec703e89b7b,"",4},
+{5,a12adc15-6d3f-49db-8bef-37f55724b021,"",5},
+{5,da706973-5fa9-44e7-b947-105f0560a46d,"",6},
+{5,2ea5ef3e-e28c-42f8-8df4-204c15853623,"",7},
+{4,"_$PerformError$_",8}
